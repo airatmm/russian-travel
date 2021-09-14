@@ -38,3 +38,9 @@
         min-height: 480px;
     }
 }
+
+@media (max-width: 320px) {
+    .cover__content {
+        min-height: 200px;
+    }
+}
