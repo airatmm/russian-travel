@@ -20,10 +20,10 @@
     left: 0;
     right: 0;
     background-color: #000;
-    opacity: 0.3;
+    opacity: .3;
     transition: opacity 1s ease-in;
 }
 
 .cover__content:hover:after {
-    opacity: 0.8;
+    opacity: .8;
 }
