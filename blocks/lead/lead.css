@@ -6,9 +6,15 @@
     align-items: center;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .lead {
         margin: 48px 48px 0;
         max-width: 928px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
     }
 }

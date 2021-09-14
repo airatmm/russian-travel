@@ -5,8 +5,14 @@
     margin: 92px auto;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .intro {
         margin-left: 48px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .intro {
+        margin: 88px 24px;
     }
 }

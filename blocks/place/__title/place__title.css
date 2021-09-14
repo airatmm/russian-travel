@@ -4,3 +4,9 @@
     line-height: 1.06;
     margin: 0;
 }
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+    }
+}
