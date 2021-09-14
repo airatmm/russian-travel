@@ -1,5 +1,4 @@
 .cover__content {
-    max-width: 1184px;
     min-height: 740px;
     color: #fff;
     text-decoration: none;
@@ -26,4 +25,10 @@
 
 .cover__content:hover:after {
     opacity: .8;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover__content {
+        min-height: 640px;
+    }
 }

@@ -4,3 +4,9 @@
     flex-direction: column;
     margin: 92px auto;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
