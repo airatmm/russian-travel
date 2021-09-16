@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .footer__navigation {
         flex-direction: column;
     }
