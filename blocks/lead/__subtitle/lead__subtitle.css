@@ -7,22 +7,22 @@
     margin: 32px 0 64px;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .lead__subtitle {
         margin-bottom: 56px;
     }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .lead__subtitle {
-        margin-bottom: 56px;
+        margin: 32px 0 56px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .lead__subtitle {
         font-size: 16px;
         line-height: 1.25;
-        margin: 16px 0 40px;
+        margin: 16px 16px 40px;
     }
 }
