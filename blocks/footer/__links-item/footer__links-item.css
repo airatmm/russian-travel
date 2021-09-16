@@ -8,7 +8,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .footer__links-item {
-        margin: 0 0 18px 0;
+        margin-bottom: 32px;
     }
     .footer__links-item:last-child {
         margin: 0
