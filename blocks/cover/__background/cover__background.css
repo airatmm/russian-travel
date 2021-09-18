@@ -1,10 +1,8 @@
 .cover__background {
-    /*max-width: 100%;*/
-    /*min-height: 740px;*/
     color: #fff;
     text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -12,9 +10,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    /*решение из треда*/
     width: 100%;
-    height: calc(0.625 * 100vw);
+    min-height: calc(0.625 * 100vw);
     margin: 0;
     padding: 0;
 }
@@ -26,7 +23,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: #2A2C2F;
     opacity: .3;
     transition: opacity 1s ease-in;
 }
@@ -35,12 +32,9 @@
     opacity: .8;
 }
 
-/*решение из треда*/
-
 @media screen and (min-width: 1184px) {
     .cover__background {
-        width: 100%;
-        height: 740px;
+        min-height: 740px;
         margin: 0 auto;
     }
 }
